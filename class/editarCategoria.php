@@ -41,6 +41,7 @@
 
 <?php include "../recursos/menuAdmin.php" ?>
 <link rel="stylesheet" href="../css/bootstrap.css">
+
   <div class="m-0 row justify-content-center text-center">
     <h1>Actualizar Categoria</h1>
     <div class="col-4 rounded-3; text-center aling-items-center" style="border-style: solid !important; padding:15px">

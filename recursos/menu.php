@@ -14,13 +14,13 @@
 				<a class="nav-link <?=echoActiveClassIfRequestMatches("index")?>"  aria-current="page" href="index.php">Inicio</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=echoActiveClassIfRequestMatches("login")?>"  href="login.php">Acceso</a>
+				<a class="nav-link <?=echoActiveClassIfRequestMatches("login")?>"  href="javascript:accesos('formLogin')">Acceso</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=echoActiveClassIfRequestMatches("registro")?>" href="registro.php">Registro</a>
+				<a class="nav-link <?=echoActiveClassIfRequestMatches("registro")?>"  href="javascript:registros('formRegistro')">Registro</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?=echoActiveClassIfRequestMatches("contra")?>" href="contra.php">Recuperar Contraseña</a>
+				<a class="nav-link <?=echoActiveClassIfRequestMatches("contra")?>" href="javascript:contras('formContra')">Recuperar Contraseña</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link <?=echoActiveClassIfRequestMatches("about")?>" href="about.php">Acerca de...</a>
@@ -32,7 +32,7 @@
 			  	<a class="nav-link disabled"  href="login.php">User</a>
   			</li>
   			<li class="nav-item">
-			  <a class="btn btn-primary" href="login.php" role="button">Iniciar Sesion</a>
+			  <a class="btn btn-primary" href="javascript:accesos('formLogin')" role="button">Iniciar Sesion</a>
 			</li>
 		</ul>
 </nav>

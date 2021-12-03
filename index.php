@@ -9,7 +9,16 @@
 	<meta charset="utf-8">
 	<title>Bienvenido</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery-confirm.css">
+  	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="JS/jquery-confirm.js"></script>
+	<script src="controllers/acceso.js"></script>
+	<script src="controllers/registro.js"></script>
+	<script src="controllers/contra.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
 </head>
 <body>
 	<?php include "recursos/menu.php"?>

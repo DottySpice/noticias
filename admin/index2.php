@@ -15,10 +15,15 @@ else{
 <!DOCTYPE html>
 <html>
 <head>
-    
 	<meta charset="utf-8">
 	<title>Bienvenido</title>
 	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="../css/jquery-confirm.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="../JS/jquery-confirm.js"></script>
+	<script src="../controllers/usuario.js"></script>
 
 </head>
 <body>

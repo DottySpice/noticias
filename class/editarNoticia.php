@@ -67,8 +67,9 @@ if (isset($_POST['actualizar_noticia'])) {
                                 echo '<option value= "'.$valores['IdPais'].'" >'.$valores['Nombre'].'</option>';
                             }
                             ?>
-                            </select>
-                            <select type="text" name="select_categoria" class="form-control">
+                        </select>
+                        
+                        <select type="text" name="select_categoria" class="form-control">
                             <option value= "0" >Categoria: </option>
                             <?php 
                             $consulta = "SELECT * FROM categoria";

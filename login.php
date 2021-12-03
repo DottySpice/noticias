@@ -14,6 +14,7 @@ include "class/classBD.php";
 			$_SESSION['IdUsuario']=$registros -> IdUsuario;
 			$_SESSION['IdTipoUsuario']=$registros -> IdTipoUsuario;
 			$_SESSION['foto']=$registros -> Foto;
+			
 			if($registros -> IdTipoUsuario == 1){
 				header("location: admin/index2.php");
 			}

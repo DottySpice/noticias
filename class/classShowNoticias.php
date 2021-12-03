@@ -21,8 +21,7 @@
 
     //consulta = ("SELECT Titulo, Descripcion , Fecha as Fecha, concat(Nombre,' ', Apellidos,' ',Email) 
     //User from Noticia N join Usuario U on IdUsuario=U.IdUsuario where IdNoticia = $id");
-
-
+	
     $query = mysqli_query($conexion,$consulta);
 ?>
 

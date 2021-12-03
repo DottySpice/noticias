@@ -26,10 +26,11 @@
 			  	<img class="foto-perfil" src="<?php echo $_SESSION['foto']?>"/>			  
   			</li>
 			<li class="nav-item">
-				<a class="nav-link"  href="../class/editarPerfil.php?idUsuario="<?php echo $_SESSION['IdUsuario'] ?>> <?php echo $_SESSION['nombre']?></a>
+				<a class="nav-link"  href="../class/editarPerfil.php?idUsuario="<?php echo $_SESSION['IdUsuario'] ?> > <?php echo $_SESSION['nombre']?></a>
   			</li>
   			<li class="nav-item">
-			  <a class="btn btn-danger" href="../index.php" role="button">Cerrar Sesion</a>
+			  	<a class="btn btn-primary" href="javascript:usuarios('formActualizar')" role="button">Perfil</a>
+			  	<a class="btn btn-danger" href="../index.php" role="button">Cerrar Sesion</a>
 			</li>
 		</ul>
 </nav>
